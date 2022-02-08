@@ -1,7 +1,6 @@
 import random
 
 def primary():
-  print("Keep it logically awesome.")
 
   f = open("quotes.txt")
   quotes = f.readlines()
@@ -13,4 +12,5 @@ def primary():
   print(quotes[rnd])
 
 if __name__== "__main__":
-  primary()
+  for i in range(2):
+    primary()
